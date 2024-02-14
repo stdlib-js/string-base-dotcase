@@ -44,7 +44,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@esm/index.mjs';
+import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@v0.2.0-esm/index.mjs';
 ```
 
 #### dotcase( str )
@@ -78,7 +78,7 @@ str = dotcase( 'foo_bar' );
 <body>
 <script type="module">
 
-import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@esm/index.mjs';
+import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@v0.2.0-esm/index.mjs';
 
 var str = 'Hello World!';
 var out = dotcase( str );
