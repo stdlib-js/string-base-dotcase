@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-dotcase",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert a string to dot case.",
   "license": "Apache-2.0",
   "author": {
