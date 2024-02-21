@@ -44,6 +44,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-dotcase/tags). For example,
+
+```javascript
 import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@v0.2.1-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ str = dotcase( 'foo_bar' );
 <body>
 <script type="module">
 
-import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@v0.2.1-esm/index.mjs';
+import dotcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-dotcase@esm/index.mjs';
 
 var str = 'Hello World!';
 var out = dotcase( str );
